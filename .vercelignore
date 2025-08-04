@@ -1,0 +1,61 @@
+# Development files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Backend development files
+backend/.env
+backend/intellifinance.db
+backend/alembic/versions/*.py
+backend/tests/
+backend/__pycache__/
+backend/**/__pycache__/
+backend/**/*.pyc
+
+# Frontend development files
+frontend/node_modules/
+frontend/.env
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+
+# Build artifacts
+frontend/build/
+frontend/dist/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Docker files
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# Documentation (optional, remove if you want to include)
+docs/
+README.md
+
+# Scripts
+scripts/
+
+# Git
+.git/
+.gitignore
+
+# Misc
+*.md
+!DEPLOYMENT.md

@@ -1,0 +1,25 @@
+# Core FastAPI dependencies for Vercel deployment
+fastapi==0.104.1
+uvicorn==0.24.0
+python-multipart==0.0.6
+
+# Database (using PostgreSQL for production)
+sqlalchemy==2.0.23
+psycopg2-binary==2.9.9
+
+# Authentication & Security
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+python-decouple==3.8
+
+# Core dependencies
+pydantic==2.5.0
+pydantic-settings==2.0.3
+httpx==0.25.2
+requests==2.31.0
+
+# Financial APIs
+plaid-python==9.1.0
+
+# AI/ML (optional, lighter versions for serverless)
+openai>=1.0.0
